@@ -1,0 +1,33 @@
+{
+  "name": "kevinbreed/rocketeer-wordpress",
+  "description": "Wordpress plugin for rocketeer",
+  "license": "MIT",
+  "keywords": [
+    "rocketeer"
+  ],
+  "authors": [
+    {
+      "name": "Kevin Breed",
+      "email": "contact@kevinbreed.nl"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "anahkiasen/rocketeer": "3.0.*@dev"
+  },
+
+  "require-dev": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "Rocketeer\\Plugins\\Wordpress\\": "src/KB"
+    }
+  },
+  // "autoload-dev": {
+  //   "psr-4": {
+  //     "Rocketeer\\Plugins\\Acme\\": "tests",
+  //     "Rocketeer\\": "vendor/anahkiasen/rocketeer/tests"
+  //   }
+  // },
+}
