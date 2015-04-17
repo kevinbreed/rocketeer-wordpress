@@ -8,7 +8,8 @@
   "authors": [
     {
       "name": "Kevin Breed",
-      "email": "contact@kevinbreed.nl"
+      "email": "contact@kevinbreed.nl",
+      "homepage": "http://kevinbreed.nl"
     }
   ],
   "require": {
@@ -23,11 +24,5 @@
     "psr-4": {
       "Rocketeer\\Plugins\\Wordpress\\": "src/KB"
     }
-  },
-  // "autoload-dev": {
-  //   "psr-4": {
-  //     "Rocketeer\\Plugins\\Acme\\": "tests",
-  //     "Rocketeer\\": "vendor/anahkiasen/rocketeer/tests"
-  //   }
-  // },
+  }
 }
